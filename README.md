@@ -71,3 +71,43 @@ causal-conversion-model/
 │   └── causal_utils.py                # functions for IPTW, SMD, ATE, etc.
 ├── README.md
 └── requirements.txt
+
+
+⸻
+
+🛠️ Tech Stack
+	•	Python 3.9+
+	•	NumPy / Pandas
+	•	scikit-learn
+	•	XGBoost
+	•	statsmodels
+	•	matplotlib / seaborn
+
+⸻
+
+📈 Insights (Generalized)
+
+The causal inference approach enables:
+	•	Measuring true incremental impact of business levers on conversion
+	•	De-biasing estimates that would otherwise be confounded by targeting effects
+	•	Enabling data-driven investment decisions across levers (e.g., discounting vs selection)
+
+⸻
+
+⚠️ Limitations & Challenges
+	•	Unmeasured confounding: Assumes all relevant confounders are observed
+	•	Positivity: Requires overlap in treatment probability across covariate space
+	•	Model sensitivity: Estimates are sensitive to how propensity scores are modeled
+	•	Extreme weights: May require trimming or regularization
+
+⸻
+
+📜 Disclaimer
+
+This project is a generalized and privacy-safe reconstruction of internal work originally done in a corporate setting. All data is simulated. No confidential business logic, customer data, or proprietary metrics are shared or exposed in this repository.
+
+⸻
+
+🙋‍♀️ Author
+
+Built by Hardik Kshatriya — for showcasing applied causal inference skills in real-world business problems.
