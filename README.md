@@ -1,5 +1,5 @@
 # conversion-impact-synthetic-control
-A project demonstrating synthetic control-based causal inference to measure conversion uplift from individual levers in fashion e-commerce environment.
+A project demonstrating synthetic control-based causal inference to measure conversion uplift from individual levers in e-commerce environment.
 # 🧠 Causal Inference for E-commerce Conversion – An IPTW Approach
 
 This project demonstrates how to estimate the **causal effect of business drivers** on user conversion in an e-commerce setting using **observational data**, where randomized experiments (A/B tests) are not feasible. The core methodology applied here is **Inverse Probability of Treatment Weighting (IPTW)**, a technique from the causal inference toolkit.
